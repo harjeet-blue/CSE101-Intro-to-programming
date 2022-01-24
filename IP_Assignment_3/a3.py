@@ -1,3 +1,7 @@
+#HARJEET SINGH YADAV
+#2020561 - CSAI 
+# IIIT - DELHI
+
 import numpy as np
 import matplotlib.pyplot as plt
 # NO other imports are allowed
