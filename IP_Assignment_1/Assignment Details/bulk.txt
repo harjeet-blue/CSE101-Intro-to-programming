@@ -1,0 +1,94 @@
+=================================================
+                   MY BAZAAR
+=================================================
+Hello! Welcome to my grocery store!
+Following are the products available in the shop:
+
+-------------------------------------------------
+CODE | DESCRIPTION |   CATEGORY   | COST (Rs)
+-------------------------------------------------
+  0  | Tshirt      | Apparels     | 500
+  1  | Trousers    | Apparels     | 600
+  2  | Scarf       | Apparels     | 250
+  3  | Smartphone  | Electronics  | 20,000
+  4  | iPad        | Electronics  | 30,000
+  5  | Laptop      | Electronics  | 50,000
+  6  | Eggs        | Eatables     | 5
+  7  | Chocolate   | Eatables     | 10
+  8  | Juice       | Eatables     | 100
+  9  | Milk        | Eatables     | 45
+------------------------------------------------
+
+Would you like to buy in bulk? (y or Y / n or N): Y
+
+-------------------------------------------------
+ENTER ITEM AND QUANTITIES
+-------------------------------------------------
+Enter code and quantity (leave blank to stop): 1 50
+You added 50 Trousers
+
+Enter code and quantity (leave blank to stop): 3 10
+You added 10 Smartphone
+
+Enter code and quantity (leave blank to stop): 1 20
+You added 20 Trousers
+
+Enter code and quantity (leave blank to stop): 4 -5
+Invalid quantity. Try again.
+
+Enter code and quantity (leave blank to stop): 25 2
+Invalid code. Try again.
+
+Enter code and quantity (leave blank to stop): 25 -5
+Invalid code and quantity. Try again.
+
+Enter code and quantity (leave blank to stop): 
+Your order has been finalized.
+
+
+-------------------------------------------------
+ORDER DETAILS
+-------------------------------------------------
+[1] Trousers * 70 = Rs 600 * 70 = Rs 42000
+[2] Smartphone * 10 = Rs 20000 * 10 = Rs 200000
+
+TOTAL COST = 242000
+
+
+-------------------------------------------------
+CATEGORY-WISE COST
+-------------------------------------------------
+Apparels = Rs 42000
+Electronics = Rs 200000
+
+
+-------------------------------------------------
+DISCOUNTS
+-------------------------------------------------
+[APPAREL] Rs 42000 - Rs 4200 = Rs 37800
+[ELECTRONICS] Rs 200000 - Rs 20000 = Rs 180000
+
+TOTAL DISCOUNT = Rs 24200
+TOTAL COST = Rs 217800
+
+
+-------------------------------------------------
+TAX
+-------------------------------------------------
+[APPAREL] Rs 37800 * 0.10 = Rs 3780
+[ELECTRONICS] Rs 180000 * 0.15 = Rs 27000
+
+TOTAL TAX = Rs 30780
+TOTAL COST = Rs 248580
+
+
+-------------------------------------------------
+COUPON CODE
+-------------------------------------------------
+Enter coupon code (else leave blank): CHILL50
+[CHILL50] min(10000, Rs 248580 * 0.50) = Rs 10000
+
+TOTAL COUPON DISCOUNT = Rs 10000
+TOTAL COST = Rs 238580
+
+Thank you for visiting!

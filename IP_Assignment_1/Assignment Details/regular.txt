@@ -1,0 +1,82 @@
+=================================================
+                   MY BAZAAR
+=================================================
+Hello! Welcome to my grocery store!
+Following are the products available in the shop:
+
+-------------------------------------------------
+CODE | DESCRIPTION |   CATEGORY   | COST (Rs)
+-------------------------------------------------
+  0  | Tshirt      | Apparels     | 500
+  1  | Trousers    | Apparels     | 600
+  2  | Scarf       | Apparels     | 250
+  3  | Smartphone  | Electronics  | 20,000
+  4  | iPad        | Electronics  | 30,000
+  5  | Laptop      | Electronics  | 50,000
+  6  | Eggs        | Eatables     | 5
+  7  | Chocolate   | Eatables     | 10
+  8  | Juice       | Eatables     | 100
+  9  | Milk        | Eatables     | 45
+------------------------------------------------
+
+Would you like to buy in bulk? (y or Y / n or N): N
+
+
+-------------------------------------------------
+ENTER ITEMS YOU WISH TO BUY
+-------------------------------------------------
+Enter the item codes (space-separated): 0 1 1 3 4 8 1 8
+
+
+-------------------------------------------------
+ORDER DETAILS
+-------------------------------------------------
+[1] Tshirt x 1 = Rs 500 * 1 = Rs 500
+[2] Trouser x 3 = Rs 600 * 3 = Rs 1800
+[3] Smartphone x 1 = Rs 20000 * 1 = Rs 20000
+[4] iPad x 1 = Rs 30000 * 1 = Rs 30000
+[5] Juice x 2 = Rs 100 * 2 = Rs 200
+
+
+-------------------------------------------------
+CATEGORY-WISE COST
+-------------------------------------------------
+Apparels = Rs 2300
+Electronics = Rs 50000
+Eatables = Rs 200
+
+
+-------------------------------------------------
+DISCOUNTS
+-------------------------------------------------
+[APPAREL] Rs 2300 - Rs 230 = Rs 2070
+[ELECTRONICS] Rs 50000 - Rs 5000 = Rs 45000
+
+TOTAL DISCOUNT = Rs 5230
+TOTAL COST = Rs 47270
+
+
+-------------------------------------------------
+TAX
+-------------------------------------------------
+[APPAREL] Rs 2070 * 0.10 = Rs 207
+[ELECTRONICS] Rs 45000 * 0.15 = Rs 6750
+[EATABLES] Rs 200 * 0.05 = Rs 10
+
+TOTAL TAX = Rs 6967
+TOTAL COST = Rs 54237
+
+
+-------------------------------------------------
+COUPON CODE
+-------------------------------------------------
+Enter coupon code (else leave blank): ABCD99
+Invalid coupon code. Try again.
+
+Enter coupon code (else leave blank): 
+No coupon code applied.
+
+TOTAL COUPON DISCOUNT = Rs 0
+TOTAL COST = Rs 54237
+
+Thank you for visiting!
